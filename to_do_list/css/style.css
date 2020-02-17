@@ -1,0 +1,103 @@
+html{
+  font-size: 10px;
+}
+
+body{
+  background-image: url(images/IMG_0084.jpg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 5% 20%;
+  opacity: .9;
+}
+
+.flexContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading{
+  background-color: white;
+  border-radius: 10%;
+  border: 6px solid black;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-bottom: 2%;
+}
+
+h1{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Odibee Sans', cursive;
+  font-size: 8rem;
+  margin-right: 0%;
+}
+
+h2{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Odibee Sans', cursive;
+  font-size: 5rem;
+  margin-left: 13%;
+}
+
+h3{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Odibee Sans', cursive;
+  font-size: 8rem;
+  margin-right: 0%;
+}
+
+.toDoList{
+  width: 40%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+#list {
+  list-style-type: none;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3rem;
+  background-color: white;
+  border-radius: 3px;
+}
+
+p{
+  font-family: 'Odibee Sans', cursive;
+  background-color: white;
+  border: 1.5px solid black;
+  border-radius: 3px;
+  font-size: 1.8rem;
+  padding: .2% 1%;
+  margin-bottom: 0%;
+}
+
+input{
+  font-family: 'Arial', sans-serif;
+  width: 30%;
+  outline: none;
+  border: 2px solid grey;
+  font-size: 3rem;
+  border-radius: 3px;
+}
+
+button{
+  font-family: 'Odibee Sans', cursive;
+  width: 30%;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+  margin-top: 1%;
+  border-radius: 3px;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+#doneCount{
+  font-weight: bold;
+  font-size: 2rem;
+}
