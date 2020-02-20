@@ -1,22 +1,12 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# To Do List
+#### Project Scope: Design functional inBrowser To Do List. The user inputs desired task into form and submits with the "to do" button. The tasks will become list items appended to the ul tag in the HTML.
+![](to_do_list_screenShot.png)
 
-### Goal: Build a Simple Todo List
+# How it was made:
+#### HTML5, CSS3, Javascript E6
 
-### How to submit your code for review:
+# Optimizations
+#### A strike through can be applied to a task upon click event. Strike through list items can be removed with the press of "not to do" button. The entire list can be cleared with the "This too shall pass" button.  
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+# Lesson Learned: 
+#### .appendChild() and .createElement() were vital to the functionality of this project. They created the new li element and attatched them to the ul, making them appear live in the browser. The property, .innerHTML, was necessary to target the li's with strikethroughs to be able to remove them with the .removeChild() method. 
