@@ -1,5 +1,6 @@
 # To Do List
 #### Project Scope: Design functional inBrowser To Do List. The user inputs desired task into form and submits with the "to do" button. The tasks will become list items appended to the ul tag in the HTML.
+#### View here: https://svdev-todo.netlify.com/
 ![](to_do_list_screenShot.png)
 
 # How it was made:
